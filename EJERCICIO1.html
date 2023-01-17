@@ -4,16 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <title>Ejercicio 1</title>
 </head>
 <body>
+    <div class="container-fluid">
 
-        <h2>DOM en JavaScript</h2>
-        <p>Modificando atributos de elementos</p>
+        <div class="row">
+            <div class="col-9">
+                <h2 id="titulo">DOM en JavaScript</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-9">
+                <p>Modificando atributos de elementos</p>
+                <hr>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+
+            <div class="col-5">
+               <input type="color" id="colorTexto">
+            </div>
+
+            <div class="col-5">
+                <input type="submit" value="Cambiar el color del encabezado" id="cambiar">
+            </div>
+           
+        </div>
+        
+        
 
 
-        <input type="submit">Cambiar el color del encabezado
+        
 
-       <script src="ejercicio1.js"></script> 
+
+    </div>
+
+
+
+       <script src="js/ejercicio1.js"></script> 
+       <script src="js/bootstrap.bundle.min.js"></script>
+      
 </body>
 </html>
